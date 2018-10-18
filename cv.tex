@@ -1,0 +1,288 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15) 
+%
+% This template has been downloaded from:
+% https://github.com/mlda065/friggeri-letter
+%
+% Original author: 
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% Modifications by Matthew Davis (matthew@mdavis.xyz)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Important notes:
+% This template needs to be compiled with XeLaTeX 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+ 
+
+\begin{document} 
+ 
+\header{Frander}{Granados} % Your name and current job title/field 
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION 
+%----------------------------------------------------------------------------------------
+
+ 
+\aside{
+\subsubsection{contacto}
+%don't display the name in the contact details on the first page
+%because it's up the top%That's why there's the if statement
+\ifx \firstPage \undefined
+   \xdef\firstPage{}
+\else
+Frander Granados \\
+~ \\
+\fi
+Santiago\\
+Puriscal, San José 40101 \\
+Costa Rica \\
+~  \\
++(506) 8663 3191 \\
++(506) 2416 7391 \\
+~   \\
+\href{mailto:fgranadosvega@gmail.com}{fgranadosvega \\ @gmail.com} \\
+%\href{http://www.smith.com}{http://www.smith.com}
+~ \\
+~ \\
+\subsubsection{idiomas}
+Español lenguaje materno \\
+Inglés medio
+} 
+
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+ 
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry 
+{2013--Ahora}
+{Instituto Tecnológico de Costa Rica}
+{Cartago, Costa Rica}%side thing
+{Soporte técnico}
+{
+Trabajo como asistente en el área de soporte de la Escuela de Ingeniería en Computación, parte de mi trabajo es la creación y mantenimiento de servidores GNU/Linux y Microsoft Windows, revisión del equipo de los profesores y laboratorios de la Escuela.
+}
+
+%------------------------------------------------
+
+%\end{entrylist}
+%
+%\subsection{Part Time}
+%
+%\begin{entrylist}
+%
+%
+%\entry
+%{2013-2015}
+%{Company} 
+%{side thing}
+%{Job title}
+%{ 
+%Description
+%}
+%
+%
+%%------------------------------------------------
+%
+%
+%\end{entrylist}
+%
+%
+%%------------------------------------------------
+%
+%
+%\subsection{Community Roles}
+%
+%\begin{entrylist}
+%
+%
+%\entry
+%{2012-Now}
+%{Organisation name} 
+%{}
+%{Role}
+%{
+%description
+%}
+%
+%
+%%------------------------------------------------
+
+
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Educación}
+
+\begin{entrylist} 
+
+%------------------------------------------------
+
+\entry
+{2006--2010}
+{Bachillerato {\normalfont Educación secundaria}}
+{Liceo de Puriscal}
+{
+}
+%------------------------------------------------
+
+\entry
+{2011-- ahora}  
+{Lic. Ingeniería en Computadores}
+{Instituto Tecnológico de Costa Rica}
+{
+}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Otros cursos}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2016}
+{Física de Plasmas y sus aplicaciones}
+{Instituto Tecnológico de Costa Rica} 
+{} 
+{}
+
+%------------------------------------------------
+
+\entry
+{2017}
+{Bases de datos Avanzadas}
+{Instituto Tecnológico de Costa Rica} 
+{} 
+{}
+
+%------------------------------------------------
+\entry
+{2018}
+{Introducción a los sistemas embebidos}
+{Instituto Tecnológico de Costa Rica} 
+{} 
+{}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Human SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades}
+  \vspace{-0.2cm}
+
+Empatía, Positivismo, Trabajo en equipo, Creatividad, Solución de problemas, Adaptabilidad.
+
+
+%----------------------------------------------------------------------------------------
+%	Technical SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades técnicas}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{}
+{Programación}
+{}
+{}
+{
+C/C++, Python, \LaTeX, Java, Arduino, Verilog, SQL, NoSQL, HTML, bash
+
+}
+
+%------------------------------------------------
+
+\entry
+{}
+{software y otros}
+{}
+{}
+{
+GNU/Linux, LTSpice, git, Raspberry Pi, FPGA, ARM, MIPS, RISC-V, circuitos eléctricos
+
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Intereses}
+  \vspace{-0.2cm}
+
+\textbf{profesional:} Sistemas Embebidos, Sitemas Operativos, Lenguajes de Programación, 
+GNU/Linux, Arquitectura y Organización de Computadores, Internet of Things, Plasma, Circuitos eléctricos. \\
+\textbf{personal:}  Cine, Música, Deportes, Fútbol, Viajar, Ciencia Ficción.
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	References SECTION 
+%----------------------------------------------------------------------------------------
+
+\section{Referencias}
+
+
+\begin{entrylist}
+
+\entry
+{}
+{José Ángel Stradi Granados}
+{M.Sc en Ingeniería en Computación}
+{Profesor en el Instituto Tecnológico de Costa Rica}
+{Teléfono:(+506) 8371 4083 \\
+correo electrónico: jastradi@gmail.com
+}
+
+
+\entry
+{}
+{Jorge Castro Godínez}
+{M.Sc. en Ingeniería Electrónica}
+{Investigador en el Chain of Embedded Systems (CES) y estudiante de doctorado en el Instituto Tecnológico de Karlsruhe (KIT)}
+{Teléfono: +49 721 608 46050 \\
+correo electrónico: jorge.castro-godinez@kit.edu
+}
+
+\end{entrylist} 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
